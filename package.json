@@ -1,0 +1,19 @@
+{
+  "name": "ighor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "<ighor>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.32.11"
+  },
+  "scripts": {
+    "build": "parcel build ./assets/styles/* --public-url ./ && parcel build ./assets/javascripts/* --public-url ./",
+    "dev": "parcel watch ./assets/styles/* --public-url ./ && parcel build ./assets/javascripts/* --public-url ./"
+  },
+  "dependencies": {
+    "swiper": "^6.7.0"
+  }
+}
