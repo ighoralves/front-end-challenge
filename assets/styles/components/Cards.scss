@@ -1,0 +1,18 @@
+.Cards {
+  .Container {
+    padding: 40px;
+  }
+
+  .List {
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.7rem;
+    padding: 30px 0;
+  }
+
+  .CardList {
+    background: #fff;
+    max-width: 350px;
+  }
+}
