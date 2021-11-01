@@ -85,31 +85,12 @@ table {
 .Card-list {
   margin: 30px;
 }
-.Card-list .List {
+.Card-list .CardList {
   align-content: center;
   display: grid;
   gap: 3.7rem;
   grid-template-columns: repeat(3, 1fr);
   padding: 30px 0;
-}
-.Card-list .CardList {
-  margin: 0 auto;
-  max-width: 350px;
-}
-.Card-list .CardList img {
-  border-radius: 10px;
-}
-.Card-list .CardList h2 {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 25px;
-  margin-bottom: 5px;
-}
-.Card-list .CardList p {
-  color: #57606f;
-  font-size: 18px;
-  line-height: 22px;
-  margin-bottom: 5px;
 }
 .Card-list .Meta cite {
   font-size: 18px;
