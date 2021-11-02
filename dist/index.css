@@ -92,19 +92,6 @@ table {
   grid-template-columns: repeat(3, 1fr);
   padding: 30px 0;
 }
-.Card-list .Meta cite {
-  font-size: 18px;
-  font-style: italic;
-  font-weight: bold;
-}
-.Card-list .Meta cite a {
-  color: #252525;
-  text-decoration: none;
-}
-.Card-list .Meta time {
-  font-size: 16px;
-  font-style: italic;
-}
 .Card-list .Button {
   background: #666;
   border: 1px;
