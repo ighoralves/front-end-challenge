@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./dist/index.css">
   <title>Apiki-Blog</title>
 </head>
+
 <body>
   <header class="Header">
     <div class="Container">
       <figure>
-        <img src="./assets/image/logo-apik.png" alt="imagens"/>
+        <img src="./assets/image/logo-apik.png" alt="imagem" />
       </figure>
       <nav class="Menu">
         <ul>
@@ -25,9 +29,12 @@
   </header>
 
   <section class="Card-list">
-    
+
     <div id="userCard" class="CardList"></div>
-      
+
+    <img src="" id="userImg" alt="">
+    <h3 id="cardText"></h3>
+
     <div id="button-area">
       <button type="button" id="load-more" class="Button">
         Carregar mais
@@ -37,12 +44,13 @@
   </section>
 
   <footer id="Footer">
-  <p>
-    © 2021 Apiki - Empresa especializada em WordPress.
-  </p>
+    <p>
+      © 2021 Apiki - Empresa especializada em WordPress.
+    </p>
   </footer>
 
   <script src="./assets/js/main.js"></script>
- 
+
 </body>
+
 </html>

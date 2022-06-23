@@ -1,18 +1,20 @@
-function fetchApiDate() {
-  for (let li of socialLinks.children) {
-    const social = li.getAttribute('class')
+//const url = "https://blog.apiki.com/wp-json/wp/v2/posts?_embed&categories=518"
 
-    li.children[0].href = `https://blog.apiki.com/wp-json/wp/v2/posts?_embed&categories=518`
-  }
+function getUsers() {
+  fetch(url)
+    .then(response => response.json())
+    .then(data => userCard.textContent = JSON.stringify(data))
+    .catch(error => console.error(error))
 }
 
-function fetchApiDate(){  
-  fetch ('https://blog.apiki.com/wp-json/wp/v2/posts?_embed&categories=518')
+function getCards() {
+  fetch(url)
   .then(response => response.json())
   .then(data => {
-    const usercard = document.getElementById('userCard')
-    
-  }) 
+    userImg.src = data.img
+  })
+  .catch(error => console.error(error))
 }
 
-fetchApiDate()
+getUsers()
+getCards()
